@@ -1,0 +1,84 @@
+
+
+@media (max-width: 768px) {
+  .navi-wrap {
+    justify-content: space-between;
+    width: 100%;
+    top: 20px;
+    left: 0;
+    padding: 0 20px;
+  }
+  .logo-mobile {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+  }
+  .navi { display: none; }
+  .header-left { width: 100%; }
+  .header-right { display: none; }
+
+  .login { 
+    display: block; 
+}
+
+  .login button {
+    border: 1px solid white;
+    padding: 6px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    cursor: pointer;
+     transition: all 0.3s;
+  }
+    .login button:hover{
+        background-color: white;
+       background-color: rgba(255, 255, 255, 0.5);
+    }
+
+  /*  중복 제거하고 하나로 합침 */
+  .header-btn-book {
+    display: block;
+    position: absolute;
+    bottom: 110px;
+    left: 50px;
+   
+  }
+  .header-btn-book button {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+     transition: all 0.3s;
+  }
+  .header-btn-book button:hover {
+    background-color: #ffe600;
+    color: black;
+  }
+  /* 로고 모바일 */
+  .logo-mobile img {
+  width: 130px;  
+ 
+}
+.logo-mobile {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    z-index: 10; 
+}
+}
+/* 480px 모바일 */
+@media (max-width: 480px) {
+}

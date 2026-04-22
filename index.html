@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kakaoGOLF</title>
+
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- 전체 -->
+    <div class="wrap">
+      <!-- header -->
+      <header class="header">
+        <div class="header-box">
+          <!-- header left -->
+          <div class="header-left">
+            <!-- 모바일 로고 -->
+            <div class="logo-mobile">
+              <a href="#"><img src="image/logo-white.png" alt="로고" /></a>
+            </div>
+
+            <div class="slider">
+              <div class="slider-img" id="slider">
+                <img src="image/header-1.jpg" alt="배경1" />
+                <img src="image/header-2.png" alt="배경2" />
+                <img src="image/header-3.png" alt="배경3" />
+              </div>
+            </div>
+            <!-- 모바일 골프장 예약 -->
+            <div class="header-btn-book">
+              <button>골프장 예약하기</button>
+            </div>
+            <div class="navi-wrap">
+              <button class="bar" aria-label="전체메뉴 열기">☰</button>
+              <nav class="navi">
+                <a href="#">국내골프</a>
+                <a href="#">해외골프</a>
+                <a href="#">예약후기</a>
+                <a href="#">고객센터</a>
+              </nav>
+            </div>
+            <div class="login">
+              <button>로그인</button>
+            </div>
+            <div class="header-title">
+              <h2>대한민국 NO.1 골프 플랫폼</h2>
+              <h1>언제 어디서나 <br /><span>카카오골프로 </span>예약하세요</h1>
+              <p>전국 500개 + 골프장 실시간 예약</p>
+            </div>
+          </div>
+
+          <!-- header right -->
+          <div class="header-right">
+            <div class="logo">
+              <a href="#"
+                ><img src="image/logo.png" alt="카카오 골프 로고"
+              /></a>
+            </div>
+
+            <select class="lang">
+              <option value="KOR">KOR</option>
+              <option value="US">US</option>
+            </select>
+            <div class="header-right-inner">
+              <h2 class="golf-book">골프장 예약</h2>
+              <ul class="header-right-rdt">
+                <li class="header-right-box">
+                  <label for="region">지역</label>
+                  <select class="header-right-opt">
+                    <option value="region">지역을 선택하세요</option>
+                  </select>
+                </li>
+                <li class="header-right-box">
+                  <label for="date">날짜</label>
+                  <select class="header-right-opt">
+                    <option value="region">날짜를 선택하세요</option>
+                  </select>
+                </li>
+                <li class="header-right-box">
+                  <label for="time">시간</label>
+                  <select class="header-right-opt">
+                    <option value="">시간을 선택하세요</option>
+                  </select>
+                </li>
+                <li class="btn-teatime">
+                  <a href="#">티타임 조회하기</a>
+                </li>
+              </ul>
+
+              <ul class="form">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+              </ul>
+              <ul class="forgot">
+                <li><a href="#">비밀번호를 잊으셨나요?</a></li>
+              </ul>
+              <p class="social-p">소셜계정으로 간편 로그인</p>
+              <ul class="social">
+                <li>
+                  <a href="#"
+                    ><img src="image/icon-naver.PNG" alt="네이버"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="image/icon-google.png" alt="구글" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="image/icon-apple.jpg" alt="애플" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- section_1 : 기능 소개 -->
+      <div class="inner">
+        <h1>골프의 모든 것, 한곳에서</h1>
+        <h3>예약부터 스코어 관리까지 카카오골프가 함께합니다.</h3>
+      </div>
+      <section class="intro">
+        <div class="slider-intro">
+          <div class="slider-intro-list" id="slider-1">
+            <img src="image/main-intro.png" alt="인트로1" />
+            <img src="image/main-intro-1.png" alt="인트로2" />
+            <img src="image/main-intro-2.png" alt="인트로3" />
+            <img src="image/main-intro-3.png" alt="인트로4" />
+          </div>
+        </div>
+      </section>
+      <!-- section_2 :  플랫폼 요약-->
+       <div class="inner">
+        <h1>프로 골퍼도 선택한 플랫폼</h1>
+        <h3>국내 최대 규모의 골프 예약 서비스</h3>
+       </div>
+      <section ></section>
+      <!-- section_3 :  후기 -->
+      <!-- section_4 :  이용방법 -->
+      <!-- section_5 :  첫 회원가입 혜택 -->
+      <!-- section_6 :  이번주 BEST 코스 소개/ 예약  -->
+      <!-- footer -->
+    </div>
+    <script src="js/header.js"></script>
+    <script src="js/slide.js"></script>
+  </body>
+</html>

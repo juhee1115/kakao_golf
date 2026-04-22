@@ -1,0 +1,222 @@
+  .header-btn-book {
+    display: none;
+  }
+  .login {
+    display: none;
+ 
+    
+  }
+    .logo-mobile{
+        display: none;
+    }
+
+
+/* header-wrap */
+
+
+.header-box {
+  display: flex;
+  width: 100%;
+  height: 700px;
+}
+
+/* header- left */
+
+.header-left {
+  width: 60%;
+  position: relative;
+  overflow: hidden;
+}
+/* header 배경 자동 slider */
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.slider-img {
+  display: flex;
+  width: 300%;
+  height: 100%;
+  transition: all 0.8s ease-in-out;
+}
+.slider-img img {
+  width: calc(100% / 3);
+  height: 100%;
+  object-fit: cover;
+}
+.navi-wrap {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navi a {
+  color: white;
+  padding: 15px;
+}
+.navi a:hover {
+  text-decoration: underline;
+}
+.bar {
+  font-size: 25px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.header-title {
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  color: white;
+}
+.header-title h2 {
+  padding: 10px 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  color: #fee500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.header-title span {
+  color: #fee500;
+}
+.header-title p {
+  margin-top: 30px;
+}
+
+
+
+
+/* header- right */
+.header-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 20px 30px;
+}
+
+.logo {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.lang {
+  position: absolute;
+  align-self: flex-end;
+  border: none;
+  width: 60px;
+  height: 30px;
+  font-weight: bold;
+}
+
+.header-right-inner {
+  padding: 20px 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.golf-book {
+  margin-top: 20px;
+}
+
+.header-right-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 16px;
+}
+
+.header-right-box label {
+  font-weight: 500;
+  font-size: 14px;
+}
+.header-right-opt {
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #d8d8d8;
+  background-color: #f8f8f8;
+  padding: 0 20px;
+  color: #999999;
+}
+.btn-teatime {
+  display: block;
+  background-color: #f8f8f8;
+  border: 1px solid #d8d8d8;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.btn-teatime:hover {
+  font-weight: bold;
+  background-color: #fee500;
+  border: 1px solid #979797;
+}
+.form {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+.form li {
+  flex: 1;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  line-height: 40px;
+  transition: all 0.3s;
+}
+.form li:hover {
+  background-color: #fee500;
+  font-weight: bold;
+}
+.forgot {
+  text-align: right;
+  padding: 3px 0;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.forgot a {
+  color: #999999;
+}
+
+/* 소셜 로그인 텍스트 */
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.social img {
+  width: 45px;
+  height: 45px;
+}
+.social-p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #888;
+  font-size: 13px;
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+
+.social-p::before,
+.social-p::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #e8e8e8;
+}
